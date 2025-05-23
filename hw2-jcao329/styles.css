@@ -1,0 +1,76 @@
+/* Modify this file all you want. Some styles have been started for you. */
+
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    }
+
+main {
+  border: solid 1px #CCC;
+  margin: 6em auto;
+  width: 800px;
+  height: 450px;
+  background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    font-style: italic;
+    border: none;
+    border-radius: 5px; /* Optional for rounded corners */
+}
+
+
+#weather-content {
+    display: flex;
+    align-items: center;
+}
+
+#weather-icon {
+    width: 300px; 
+}
+
+#basics {
+    text-align: left; 
+}
+
+#temperature {
+    font-size: 76px; 
+    font-weight: normal; 
+}
+
+#location {
+    font-size: 1.5em; 
+}
+
+#stats {
+    margin-top: 20px; 
+    display: flex;
+}
+
+#humidity{
+    display: flex;
+    margin-right: 10px;
+    width: 160px;
+  }
+  
+  #wind-speed{
+    display: flex;
+    margin-right: 10px; 
+    width: 160px;
+  }
+
+.stat-icon {
+    width: 48px; 
+    margin-right: 10px; 
+}
