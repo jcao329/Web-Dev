@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HW3</title>
+  <script src="cards.js"></script>
+  <script src="blackjack.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Blackjack Simulation</h1>
+    <p id="status">Let's Play!</p>
+    
+    <section class="actions">
+      <button id="hit">Hit</button>
+      <button id="stand">Stand</button>
+      <button id="reset">New Game</button>
+    </section>
+  </header>
+
+  <main>
+    
+    <div class="playing_area">
+      <h2>Player's Hand <span id="human_score" class="hand_value"></span></h2>
+      <div id="human_cards" class="card_area"> </div>
+    </div>
+
+    <div class="playing_area">
+      <h2>Computer's Hand <span id="computer_score" class="hand_value"></span></h2>
+      <div id="computer_cards" class="card_area"> </div>
+    </div>
+
+  </main>
+
+</body>
+</html>
